@@ -12,7 +12,7 @@ export class AppComponent implements OnInit {
 
   }
   ngOnInit(){
-  	this.httpClient.get('http://localhost:3000/api/users').subscribe((data)=>{
+  	this.httpClient.get('http://3.83.144.164:3000/api/users').subscribe((data)=>{
   		this.users = data
   	})
   }
